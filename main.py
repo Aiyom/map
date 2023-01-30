@@ -32,7 +32,7 @@ class Map(dict):
         del self.__dict__[key]
 
 
-m = Map({'first_name': 'Eduardo'}, last_name='Pool', age=24, sports=['Soccer'])
+m = Map({'name': 'Dict with dot'}, year=2023, hobby=['dance', 'sleep'])
 
-m.first_name = 'Bobo'
+m.name = 'Bobo'
 print(m)

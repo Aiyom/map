@@ -1,5 +1,6 @@
 Example:
 m = Map({'name': 'Dict with dot'}, year=2023, hobby=['dance', 'sleep'])
+print(m) #{'name': 'Bobo', 'year': 2023, 'hobby': ['dance', 'sleep']}
 
 print(m.name) # Dict with dot
 
