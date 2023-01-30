@@ -1,0 +1,21 @@
+Example:
+m = Map({'name': 'Dict with dot'}, year=2023)
+
+print(m.name) # Dict with dot
+
+print(m.year) # 2023
+
+# add
+m.city = 'Dushanbe'
+or
+m['city'] = 'Dushanbe'
+
+# edit value
+m.name = 'I am super'
+or
+m['name'] = 'I am super'
+
+#delete
+del m.year
+or
+del m['year']
